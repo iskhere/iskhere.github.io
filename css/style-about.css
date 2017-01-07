@@ -1,0 +1,29 @@
+/*styling section for about page*/
+body{
+  background-color:#ffffff;
+  color: #000000;
+}
+h1, h2{
+  color: #1d47ff;
+}
+.navbar {
+  background-color: #ffffff;
+  opacity:0.9;
+}
+.navbar-brand{
+  color: #1d47ff !important;
+}
+.navbar-nav  li a {
+  color: #1d47ff !important;
+}
+.navbar-nav  li a:hover {
+  color: #1d47ff !important;
+}
+.active-nav a{
+  color: #1d47ff !important;
+}
+#me-img{
+  margin: 0 auto;
+  padding-bottom: 5rem;
+  width: 300px;
+}

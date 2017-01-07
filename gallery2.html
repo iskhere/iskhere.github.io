@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>khere</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--Bootstrap-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <!--css file-->
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/style-lightbox.css">
+  <!-- js file -->  
+  <script src="js/script.js"></script>
+  <!--browser icon-->
+  <link rel="icon" href="img/icon.png">
+  <!--font-->
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+</head>
+<body>
+  <div id="notfooter">
+    <!-- Navbar -->
+    <header>
+      <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand active" href="index.html">khere</a>
+          </div>
+          <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav navbar-right">
+              <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown">+Photography</a>
+                <ul class="dropdown-menu">
+                  <li><a href="gallery1.html"><i>street ambiguity</i></a></li>    
+                  <li><a href="gallery2.html"><i>noir </i></a></li>
+                </ul>
+              </li>
+              <li class="nav-item"><a href="about.html">About</a></li>
+              <li class="nav-item"><a href="https://500px.com/lskhere" target="_blank">500px</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6">
+            <img src="img/gallery2/t001.jpg" alt="image" onclick="openModal();currentSlide(1)" class="hover-shadow cursor thumbnail-img">
+          </div>
+          <div class="col-sm-6">
+            <img src="img/gallery2/t002.jpg" alt="image" onclick="openModal();currentSlide(2)" class="hover-shadow cursor thumbnail-img">
+          </div>
+          <div class="col-sm-6">
+            <img src="img/gallery2/t003.jpg" alt="image" onclick="openModal();currentSlide(3)" class="hover-shadow cursor thumbnail-img">
+          </div>
+          <div class="col-sm-6">
+            <img src="img/gallery2/t004.jpg" alt="image" onclick="openModal();currentSlide(4)" class="hover-shadow cursor thumbnail-img">
+          </div>
+          <div class="col-sm-6">
+            <img src="img/gallery2/t005.jpg" alt="image" onclick="openModal();currentSlide(5)" class="hover-shadow cursor thumbnail-img">
+          </div>
+          <div class="col-sm-6">
+            <img src="img/gallery2/t006.jpg" alt="image" onclick="openModal();currentSlide(6)" class="hover-shadow cursor thumbnail-img">
+          </div>
+          <div class="col-sm-6">
+            <img src="img/gallery2/t007.jpg" alt="image" onclick="openModal();currentSlide(7)" class="hover-shadow cursor thumbnail-img">
+          </div>
+          <div class="col-sm-6">
+            <img src="img/gallery2/t008.jpg" alt="image" onclick="openModal();currentSlide(8)" class="hover-shadow cursor thumbnail-img">
+          </div>
+          <div class="col-sm-6">
+            <img src="img/gallery2/t009.jpg" alt="image" onclick="openModal();currentSlide(9)" class="hover-shadow cursor thumbnail-img">
+          </div>
+          <div class="col-sm-6">
+            <img src="img/gallery2/t010.jpg" alt="image" onclick="openModal();currentSlide(10)" class="hover-shadow cursor thumbnail-img">
+          </div>
+        </div>
+
+        <div id="myModal" class="modal">
+          <span class="close cursor" onclick="closeModal()">&times;</span>
+          <div class="modal-content">
+            <div class="mySlides">
+              <img src="img/gallery2/001.jpg" alt="image" class="slide-img">
+            </div>
+            <div class="mySlides">
+              <img src="img/gallery2/002.jpg" alt="image" class="slide-img">
+            </div>
+            <div class="mySlides">
+              <img src="img/gallery2/003.jpg" alt="image" class="slide-img">
+            </div>
+            <div class="mySlides">
+              <img src="img/gallery2/004.jpg" alt="image" class="slide-img">
+            </div>
+            <div class="mySlides">
+              <img src="img/gallery2/005.jpg" alt="image" class="slide-img">
+            </div>
+            <div class="mySlides">
+              <img src="img/gallery2/006.jpg" alt="image" class="slide-img">
+            </div>
+            <div class="mySlides">
+              <img src="img/gallery2/007.jpg" alt="image" class="slide-img">
+            </div>
+            <div class="mySlides">
+              <img src="img/gallery2/008.jpg" alt="image" class="slide-img">
+            </div>
+            <div class="mySlides">
+              <img src="img/gallery2/009.jpg" alt="image" class="slide-img">
+            </div>
+            <div class="mySlides">
+              <img src="img/gallery2/010.jpg" alt="image" class="slide-img">
+            </div>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <!--Footer-->
+  <footer class="text-center">
+    <div class="footer-links">
+      <a class="button" href="https://www.instagram.com/iskhere" target="_blank">INSTAGRAM</a>
+      <a class="button" href="https://lskhere.tumblr.com" target="_blank">TUMBLR</a>
+      <a class="button" href="mailto:lskhere@yahoo.com">EMAIL</a>
+      <br/><br/>   
+      <p>Copyright 2017 by khere</p> 
+      <br/>
+    </div>
+  </footer>
+</body>
+</html>
+

@@ -1,0 +1,116 @@
+body {
+  background-color: #1d47ff;
+  font-size: 16px;
+  color: #ffffff;
+  line-height: 1.8;
+  font-family: 'Josefin Sans', sans-serif;
+/*  font-family: 'Josefin Slab', serif;*/
+/*  font-family: "Raleway", sans-serif;*/
+/*  font-family: 'proxima-nova', sans-serif;*/
+/*  font-family: 'Helvetica', arial, sans-serif;*/
+/*  font-family: 'Open Sans', sans-serif;*/
+/*  font-family: 'Droid Sans', sans-serif;*/
+/*  font-family: 'Droid Sans Mono', monospace;*/
+/*  font-family: 'Cutive Mono', monospace;*/
+/*  font-family: 'David Libre', serif;*/
+/*font-family: 'Alegreya Sans', sans-serif;*/
+/*font-family: 'Merriweather Sans', sans-serif;*/
+}
+a, a:link, a:visited  {
+  text-decoration: none;
+  color: #808080;
+}
+a:hover, a:active {
+  text-decoration: none;
+  color: rgb(0,0,255);
+}
+/*body, html {
+    height: 100%;
+}
+.bg { 
+      background-image: url("../img/cover.jpg");
+      height: 100%; 
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+}*/
+.carousel {
+  height: 100vh;
+  width: 100%;
+  overflow:hidden;
+}
+.carousel .carousel-inner {
+  height:100%;    
+}
+.carousel-img {
+  width: 100%;
+}
+.container{
+  max-width: 1000px;
+  margin: 0 auto !important;
+  padding: 15rem 3rem;
+}
+.navbar {
+  padding: 2rem;
+  letter-spacing: 0.3rem;
+  background-color: transparent;
+  border: none;
+  opacity:1;
+  font-size: 14px;
+}
+.navbar-brand{
+  color: #ffffff !important;
+}
+.navbar-nav  li a {
+  color: #ffffff !important;
+}
+.navbar-nav  li a:hover {
+  color: #ffffff !important;
+}
+.active-nav a{
+  color: #ffffff !important;
+}
+.dropdown-toggle, .dropdown-menu, .dropdown-menu a{
+  background-color: transparent !important;
+  border: none;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+
+}
+.navbar-nav, .dropdown-menu{
+  text-align:right;
+}
+#notfooter{
+  min-height:100vh;
+  margin-bottom:-100px;
+}
+#notfooter:after{
+  content:"";
+  display:block;
+  height:100px;
+}
+footer {
+  height: 100px;
+}
+.footer-links a, .footer-links p{
+  letter-spacing: 3px;
+}
+.button {
+  border: 2px solid #000000;
+  color:  #000000 !important;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px 20px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+  width: 200px;
+}
+.button:hover {
+  border: 2px solid #000000;
+  background-color: #000000;
+  color: #ffffff !important;
+}
